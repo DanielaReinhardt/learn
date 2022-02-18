@@ -10,3 +10,14 @@
 
         else 
         document.getElementById("para").innerHTML="Good Idea";}
+
+
+        function BirthdayLoc(){
+            var input = document.getElementById("loc").value;
+        
+            if (input.length==0){
+                document.getElementById("tell").innerHTML="Where do you want to go on birthday?"
+            }
+            else
+            document.getElementById("tell").innerHTML="Thanks for your help";}
+            
