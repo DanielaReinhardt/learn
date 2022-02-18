@@ -45,3 +45,27 @@
             else
             document.getElementById("tell").innerHTML="Thanks for your help";}
             
+    
+    
+    
+            function BirthdayLoc2(){
+                var input = document.getElementById("loc2").value;
+            
+                if (input.length==0){
+                    document.getElementById("tell2").innerHTML="Where do you want to go on birthday?"
+                }
+                else
+                document.getElementById("tell2").innerHTML="Thanks for your help";}
+            
+                
+               
+               
+                function BirthdayLoc3(){
+                    var input = document.getElementById("loc3").value;
+                
+                    if (input.length==0){
+                        document.getElementById("tell3").innerHTML="Where do you want to go on birthday?"
+                    }
+                    else
+                    document.getElementById("tell3").innerHTML="Thanks for your help";}
+                    
