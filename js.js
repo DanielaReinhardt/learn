@@ -76,5 +76,5 @@
                 var loc3 = document.getElementById("loc3").value;
             }
         {
-        document.getElementById("diplay").innerHTML+= loc + loc2 + loc3;
+        document.getElementById("display").innerHTML+= loc + loc2 + loc3;
         }
