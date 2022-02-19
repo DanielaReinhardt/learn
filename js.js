@@ -69,3 +69,12 @@
                     else
                     document.getElementById("tell3").innerHTML="Thanks for your help";}
                     
+
+            function list(){
+                var loc = document.getElementById("loc").value;
+                var loc2 = document.getElementById("loc2").value;
+                var loc3 = document.getElementById("loc3").value;
+            }
+        {
+        document.getElementById("diplay").innerHTML+= loc + loc2 + loc3;
+        }
