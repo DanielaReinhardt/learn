@@ -37,9 +37,9 @@
         
         
         function BirthdayLoc(){
-            var input = document.getElementById("loc").value;
+            var loc = document.getElementById("loc").value;
         
-            if (input.length==0){
+            if (loc.length==0){
                 document.getElementById("tell").innerHTML="Where do you want to go on birthday?"
             }
             else
@@ -49,9 +49,9 @@
     
     
             function BirthdayLoc2(){
-                var input = document.getElementById("loc2").value;
+                var loc2 = document.getElementById("loc2").value;
             
-                if (input.length==0){
+                if (loc2.length==0){
                     document.getElementById("tell2").innerHTML="Where do you want to go on birthday?"
                 }
                 else
@@ -61,9 +61,9 @@
                
                
                 function BirthdayLoc3(){
-                    var input = document.getElementById("loc3").value;
+                    var loc3 = document.getElementById("loc3").value;
                 
-                    if (input.length==0){
+                    if (loc3.length==0){
                         document.getElementById("tell3").innerHTML="Where do you want to go on birthday?"
                     }
                     else
@@ -76,5 +76,5 @@
                 var loc3 = document.getElementById("loc3").value;
             }
         {
-        document.getElementById("display").innerHTML+= loc + loc2 + loc3;
+        document.getElementById("display").innerHTML = "loc" + "loc2" +  "loc3";
         }
